@@ -1,0 +1,263 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-y: hidden;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FFF7F1 100%);
+    margin: 0;
+    padding: 0;
+    background: url(./images/Background.png);
+    background-size: cover;
+    }
+
+.header {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 48vw;
+    top: 5.6vh;
+    left: 4vw;
+}
+
+.logo {
+   width: 8vw;
+   margin-right: 2.36vw;
+
+}
+
+.background{
+    width: 80%;
+    margin: 0
+}
+
+.distant{
+    position: fixed;
+    width: 120%;
+}
+
+.wrapper{
+    position: relative;
+
+    
+    /* animation: x-axis-lateral 2s infinite alternate ease-in-out; */
+  
+}
+
+/* @keyframes x-axis-lateral {
+    0% { transform: translate(-10px) translateY(10px); }
+    100% { transform: translate(10px) translateY(-10px); }
+  } */
+
+  .inner {
+    position: absolute;
+    top:17.5vh;
+    right:10vw;
+  }
+
+  .plasma {
+    position: absolute;
+    top:17.5vh;
+    right:10vw;
+  }
+
+.main {
+    display: block;
+    position: absolute;
+    top: 17.5vh;
+    right: 10vw;
+}
+
+.main:hover{
+    display: none;
+ 
+}
+
+
+.cut {
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    right: 10vw;
+    top: 17.5vh;
+}
+
+.mito {
+    position: absolute;
+    top: 41vh;
+    right: 38vw;
+}
+
+.vesi {
+    position: absolute;
+    top: 36vh;
+    right: 41vw;
+}
+
+.mito-2 {
+    width: 3.3vw;
+    height: auto;
+    position: absolute;
+    top: 38vh;
+    right: 41vw;
+}
+
+.nucleus {
+    position: absolute;
+    top: 38vh;
+    right: 19vw
+}
+
+.pore {
+    position: absolute;
+    top: 48vh;
+    right: 29vw
+}
+
+.imp {
+    position: absolute;
+    right: 18vw;
+    top: 26vh;
+}
+
+
+.smooth {
+    position: absolute;
+    right: 10vw;
+    top: 33vh;
+}
+
+.rough {
+    position: absolute;
+    right: 18.5vw;
+    top: 50vh;
+}
+
+.micro {
+    position: absolute;
+    right: 31vw;
+    top: 27vh;
+}
+
+
+/* qc{
+    width: 1.04vw;
+    filter: drop-shadow(20px 3px 11px rgba(0, 0, 0, 0.25));
+} */
+
+.qc-1{
+    position: absolute;
+    top: 32vh;
+    right: 39vw
+}
+
+.qc-2{
+    position: absolute;
+    top: 28vh;
+    right: 35vw
+}
+
+.qc-3{
+    position: absolute;
+    top: 29vh;
+    right: 23vw
+}
+
+.qc-4{
+    position: absolute;
+    top: 66vh;
+    right: 19vw
+}
+
+.qc-5{
+    position: absolute;
+    top: 72vh;
+    right: 35vw
+}
+
+.qc-6{
+    position: absolute;
+    top: 72vh;
+    right: 26vw
+}
+
+.qc-7{
+    position: absolute;
+    top: 60vh;
+    right: 38vw
+}
+
+.ribo{
+    position: absolute;
+    top: 70vh;
+    right: 30.5vw
+}
+
+.cyto{
+    position: absolute;
+    top: 67vh;
+    right: 25vw
+}
+
+.micro-tub{
+    position: absolute;
+    top: 61vh;
+    right: 34vw
+}
+
+
+
+/* -------------Overlay Panel--------------- */
+
+.overlay{
+    display: none;
+    
+}
+
+.overlay{
+    width: 28vw;
+    position: absolute;
+    top: 27vh;
+    right: calc(51vw + 120px);
+}
+
+
+
+.vector{
+    position: relative;
+    right: -295px;
+    top: -320px
+}
+
+
+h2 {
+    margin: 0
+}
+
+.coloration{
+    margin: 0;
+}
+
+.overlay-header {
+ display: flex;
+ justify-content: space-between;
+ width: 90%;
+ 
+}
+
+.overlay-text {
+    width: 357px;
+    min-height: 300px;
+}
+
+p{
+    font-size: 24px;
+    margin: 0
+}
+
+.overlay-team-btn{
+    align-self: flex-start;
+    margin-left: 5%;
+}
